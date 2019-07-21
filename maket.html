@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блочная верстка в HTML5</title>
+        <style>
+div {
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 40px;
+    height: 200px;
+}
+
+#header {
+    background-color: #ccc;
+}
+
+#sidebar {
+    display: inline-block;
+    width: 98%;
+    min-width: 500px;
+    background-color: #ddd;
+}
+#main{
+    background-color: #eee;
+    height: 200px;
+}
+#footer{
+    background-color: #ccc;
+}
+        </style>
+</head>
+<body>
+            <div id="header">Шапка сайта</div>
+            
+            <div id="sidebar">            
+            <div style="width: 45%; height: 150px; float: left;">Левый сайдбар</div>
+            <div style="width: 45%; height: 150px; float: right;">Правый сайдбар</div>
+            </div>
+            
+            <div id="main">Основное содержимое</div>
+            <div id="footer">Футер</div>
+</body>
+</html>
